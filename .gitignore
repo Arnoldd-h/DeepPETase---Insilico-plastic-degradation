@@ -1,0 +1,69 @@
+# ========================================
+# .gitignore para Deep-PETase-Mining
+# ========================================
+
+# --- Datos (muy importantes de excluir) ---
+# Los datos crudos pueden ser muy grandes y deben descargarse localmente
+data/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Entornos virtuales ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Archivos temporales ---
+*.tmp
+*.temp
+*.log
+*.bak
+
+# --- Resultados grandes (opcional, descomenta si necesario) ---
+# results/figures/*.png
+# results/logs/*.log
+
+# --- Archivos de configuración sensibles ---
+config.ini
+secrets.yaml
+*.key
