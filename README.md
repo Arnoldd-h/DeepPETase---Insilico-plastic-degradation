@@ -202,7 +202,9 @@ This project is licensed under the MIT License.
 
 ## 📧 Contact
 
-For questions or collaborations, please open an issue on this repository.
+For collaborations or custom project inquiries, feel free to reach out:
+
+📩 **rodrigohurtado190@outlook.com**
 
 ---
 
